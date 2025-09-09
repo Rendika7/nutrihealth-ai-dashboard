@@ -45,7 +45,7 @@ sns.set_theme(context="notebook", style="whitegrid")
 # ------------------------------- | ------------------------------- | -------------------------------
 
 # Loading Image using PIL
-web_icon = Image.open('icon\Only LOGO.png') # Adding Image to web app
+web_icon = Image.open('icon/Only LOGO.png') # Adding Image to web app
 st.set_page_config(page_title="NutriHealth AI Dashboard", layout="wide", initial_sidebar_state="auto", page_icon = web_icon)
 
 
@@ -1256,4 +1256,5 @@ def render_footer():
 
 # panggil di paling bawah halaman
 render_footer()
+
 # ======================================================================
