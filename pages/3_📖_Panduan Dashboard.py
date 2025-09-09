@@ -11,7 +11,7 @@ from textwrap import dedent
 import streamlit as st
 from PIL import Image
 
-web_icon = Image.open('icon\\Only LOGO.png')  # konsisten dengan file lain
+web_icon = Image.open('icon/Only LOGO.png')  # konsisten dengan file lain
 st.set_page_config(
     page_title="Panduan NutriHealth AI",
     layout="wide",
@@ -266,3 +266,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
