@@ -7,9 +7,22 @@ from dotenv import load_dotenv
 # ----------------- Load environment -----------------
 load_dotenv()
 
+# # Initialize OpenAI client once
+# if "client" not in st.session_state:
+#     st.session_state["client"] = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+
+# ambil key: Streamlit Cloud Secrets → ENV (.env / platform) → None
+OPENAI_KEY = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
+
+if not OPENAI_KEY:
+    st.error("OPENAI_API_KEY tidak ditemukan. Set di Streamlit Secrets / GitHub Actions ENV / .env (lokal).")
+    st.stop()
+
 # Initialize OpenAI client once
 if "client" not in st.session_state:
-    st.session_state["client"] = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    st.session_state["client"] = OpenAI(api_key=OPENAI_KEY)
+
 
 # ----------------- System Prompt -----------------
 
@@ -160,4 +173,5 @@ st.markdown(
     </div>
     """,
     unsafe_allow_html=True,
+
 )
