@@ -108,7 +108,7 @@ def welcome_dialog():
     st.caption("Pilih aksi cepat:")
 
     # Lebarin kolom tengah (tombol JAWIR)
-    c1, c2, c3 = st.columns([1, 1.35, 1])  # tweak 1.3–1.5 sesuai lebar yang kamu mau
+    c1, c2, c3 = st.columns([1, 1.1, 1.35])  # tweak 1.3–1.5 sesuai lebar yang kamu mau
 
     with c1:
         start = st.button("🚀 Mulai Jelajah", use_container_width=True)
@@ -1258,4 +1258,5 @@ def render_footer():
 render_footer()
 
 # ======================================================================
+
 
