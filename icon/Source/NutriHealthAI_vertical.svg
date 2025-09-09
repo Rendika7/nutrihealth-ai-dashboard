@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="720" height="1080" viewBox="0 0 720 1080" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="NutriHealth AI logo vertical">
+  <rect width="720" height="1080" fill="#FFFFFF"/>
+  <!-- Icon top center -->
+  <g transform="translate(272,120) scale(3)">
+    <defs>
+      <linearGradient id="g1v" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#10B981"/>
+        <stop offset="100%" stop-color="#059669"/>
+      </linearGradient>
+    </defs>
+    <circle cx="32" cy="32" r="28" fill="none" stroke="#EAB308" stroke-width="2.5"/>
+    <path d="M18 44 C14 34, 16 24, 26 18 C28 17, 30 17, 32 18 C26 22,24 28,24 34 C24 38,22 41,18 44 Z" fill="url(#g1v)"/>
+    <path d="M46 20 C50 30, 48 40, 38 46 C36 47, 34 47, 32 46 C38 42,40 36,40 30 C40 26,42 23,46 20 Z" fill="url(#g1v)"/>
+    <path d="M22 28 C22 24, 26 22, 29 24 C31 25, 32 27, 32 27 C32 27, 33 25, 35 24 C38 22, 42 24, 42 28 C42 31, 40 34, 32 40 C24 34, 22 31, 22 28 Z"
+          fill="none" stroke="#0F172A" stroke-width="1.5" stroke-linejoin="round"/>
+    <polyline points="20,42 28,35 36,32 44,26" fill="none" stroke="#0F172A" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="28" cy="35" r="1.8" fill="#0F172A"/>
+    <circle cx="36" cy="32" r="1.8" fill="#0F172A"/>
+    <circle cx="44" cy="26" r="1.8" fill="#EAB308"/>
+  </g>
+  <!-- Wordmark stacked -->
+  <text x="360" y="520" text-anchor="middle" font-family="'Plus Jakarta Sans','Inter',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif"
+        font-size="110" font-weight="900" fill="#0F172A">NutriHealth AI</text>
+  <text x="360" y="590" text-anchor="middle" font-family="'Plus Jakarta Sans','Inter',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif"
+        font-size="50" font-weight="700" fill="#EAB308">Generasi Emas 2045 Dashboard</text>
+</svg>
