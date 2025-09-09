@@ -179,7 +179,7 @@ with st.sidebar:
 # ------------------------------- | ------------------------------- | -------------------------------
 
 # Menampilkan banner gambar sebagai hero image  ========================================
-st.image('source\Main Hero Banner.jpg', use_container_width=True)
+st.image('source/Main Hero Banner.jpg', use_container_width=True)
 
 # ------------------------------- | ------------------------------- | -------------------------------
 # Isi dari Dashboard NutriHealth AI
@@ -1258,3 +1258,4 @@ def render_footer():
 render_footer()
 
 # ======================================================================
+
