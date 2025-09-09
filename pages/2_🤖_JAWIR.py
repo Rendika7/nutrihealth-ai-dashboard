@@ -49,7 +49,7 @@ if "messages" not in st.session_state:
 
 # ----------------- Page Config -----------------
 # Loading Image using PIL
-web_icon = Image.open('icon\Only LOGO.png') # Adding Image to web app
+web_icon = Image.open('icon/Only LOGO.png') # Adding Image to web app
 st.set_page_config(page_title="JAWIR", layout="wide", initial_sidebar_state="auto", page_icon = web_icon)
 
 # ----------------- Custom Header -----------------
@@ -175,3 +175,4 @@ st.markdown(
     unsafe_allow_html=True,
 
 )
+
